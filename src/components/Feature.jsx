@@ -2,7 +2,8 @@ import HeroBackgroundBlur from "./HeroBackground";
 
 import chat from "../assets/chat.png";
 import verified from "../assets/blockchain.png";
-import summary from "../assets/verified.png";
+import summary from "../assets/summary.png";
+import ocr from "../assets/ocr.png";
 
 const Feature1 = () => {
     return (
@@ -73,7 +74,7 @@ const Feature3 = () => {
                             <HeroBackgroundBlur />
                         </div>
 
-                        <img className="relative w-full mx-auto" src={summary} alt="" />
+                        <img className="relative w-full mx-auto" src={ocr} alt="" />
                     </div>
                 </div>
             </div>
