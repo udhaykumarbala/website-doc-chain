@@ -23,11 +23,11 @@ function Nav() {
                     </div>
 
                     <nav className="hidden space-x-10 md:flex md:items-center md:justify-center lg:space-x-12">
-                        <a href="#solutions" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Our solutions </a>
+                        <a href="/#solutions" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Our solutions </a>
 
-                        <a href="#features" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Features </a>
+                        <a href="/#features" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Features </a>
 
-                        <a href="services" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Services </a>
+                        <a href="/services" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Services </a>
 
                         {/* <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Support </a> */}
                     </nav>
@@ -42,11 +42,11 @@ function Nav() {
                     expanded && (
                         <nav>
                             <div className="flex flex-col pt-8 pb-4 space-y-6">
-                                <a href="#solutions" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Our solutions </a>
+                                <a href="/#solutions" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Our solutions </a>
 
-                                <a href="#features" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Features </a>
+                                <a href="/#features" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Features </a>
 
-                                <a href="#services" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Services </a>
+                                <a href="/services" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Services </a>
 
                                 {/* <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white">  </a> */}
 
