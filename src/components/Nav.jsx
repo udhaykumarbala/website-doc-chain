@@ -27,7 +27,7 @@ function Nav() {
 
                         <a href="#features" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Features </a>
 
-                        <a href="#services" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Services </a>
+                        <a href="services" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Services </a>
 
                         {/* <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Support </a> */}
                     </nav>

@@ -3,6 +3,7 @@ import './Service.css'
 import Nav from './components/Nav'
 import ServiceHero from './components/ServiceHero'
 import Skills from './components/Skills'
+import Domins from './components/Services/Domins'
 
 function Service() {
   return (
@@ -10,6 +11,7 @@ function Service() {
       <Nav />
       <ServiceHero />
       <Skills />
+      {/* <Domins/> */}
 
     </>
   )

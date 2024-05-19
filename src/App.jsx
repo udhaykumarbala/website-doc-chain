@@ -11,7 +11,7 @@ import './App.css'
 // import Partners from './components/Partners'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Home'
-// import Service from './Service'
+import Service from './Service'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -20,7 +20,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/services" element={<Service />} /> */}
+        <Route path="/services" element={<Service />} />
       </Routes>
     </BrowserRouter>
   )
