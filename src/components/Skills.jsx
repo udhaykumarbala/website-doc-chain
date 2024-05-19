@@ -1,102 +1,133 @@
+import Slider from 'react-slick';
+import antd from '../assets/skill/antd.png'
+import aws from '../assets/skill/aws.png'
+import babel from '../assets/skill/babel.png'
+import bootstrap from '../assets/skill/bootstrap.png'
+import cassandra from '../assets/skill/cassandra.png'
+import cloudflare from '../assets/skill/cloudflare.png'
+import css from '../assets/skill/css.png'
+import dart from '../assets/skill/dart.png'
+import digitalocean from '../assets/skill/digitalocean.png'
+import django from '../assets/skill/django.png'
+import docker from '../assets/skill/docker.png'
+import elastic from '../assets/skill/elastic.png'
+import firebase from '../assets/skill/firebase.png'
+import flask from '../assets/skill/flask.png'
+import flutter from '../assets/skill/flutter.png'
+// gcp,git,go,grafana,html,jquery,kubernetes,mongo,mysql,nest,next,node,openai,php,postgresal,python,qwik,react,redis,redux,solidity,supabase,svelte,swagger,tailwind,threejs,vue
+import gcp from '../assets/skill/gcp.png'
+import git from '../assets/skill/git.png'
+import go from '../assets/skill/go.png'
+import grafana from '../assets/skill/grafana.png'
+import html from '../assets/skill/html.png'
+import jquery from '../assets/skill/jquery.png'
+import kubernetes from '../assets/skill/kubernetes.png'
+import mongo from '../assets/skill/mongo.png'
+import mysql from '../assets/skill/mysql.png'
+import nest from '../assets/skill/nest.png'
+import next from '../assets/skill/next.png'
+import node from '../assets/skill/node.png'
+import openai from '../assets/skill/openai.png'
+import php from '../assets/skill/php.png'
+import postgresql from '../assets/skill/postgresql.png'
+import python from '../assets/skill/python.png'
+import qwik from '../assets/skill/qwik.png'
+import react from '../assets/skill/react.png'
+import redis from '../assets/skill/redis.png'
+import redux from '../assets/skill/redux.png'
+import solidity from '../assets/skill/solidity.png'
+import supabase from '../assets/skill/supabase.png'
+import svelte from '../assets/skill/svelte.png'
+import swagger from '../assets/skill/swagger.png'
+import tailwind from '../assets/skill/tailwind.png'
+import threejs from '../assets/skill/threejs.png'
+import vue from '../assets/skill/vue.png'
+
+
+
 const Skills = () => {
+    const settings = {
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 2000,
+        cssEase: 'linear',
+        infinite: true,
+        variableWidth: true,
+        arrows: false,
+    };
+
+    const settings2 = {
+        slidesToShow: 5,
+        slidesToScroll: -1,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 2000,
+        cssEase: 'linear',
+        infinite: true,
+        variableWidth: true,
+        arrows: false,
+
+    }
+
     return (
-        <section className="py-12 bg-black sm:py-16 lg:py-20 xl:py-24">
-    <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div className="max-w-md mx-auto text-center lg:max-w-2xl lg:text-left lg:mx-0">
-            <h2 className="text-3xl font-normal text-white sm:text-4xl lg:text-5xl xl:text-6xl">Connect with all 1000+ necessary tools</h2>
-        </div>
-    </div>
+        <>
+            <section className="py-12 bg-black sm:py-16 lg:py-20 xl:py-24">
+                <Slider {...settings}>
+                    <div className='px-12'><img src={antd} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={aws} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={babel} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={bootstrap} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={cassandra} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={cloudflare} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={jquery} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={css} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={gcp} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={git} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={go} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={grafana} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={html} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={supabase} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={svelte} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={swagger} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={redux} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={solidity} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={tailwind} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={threejs} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={vue} alt="Tech Logo 1" /></div>
+                    {/* Add more items as needed */}
+                </Slider>
 
-    <div className="mt-8 space-y-5 sm:mt-12">
-        <div className="flex justify-start w-full gap-4 overflow-x-auto pointer-events-none scroll-px-4 snap-mandatory snap-x">
-            <div className="overflow-hidden bg-black border border-gray-800 scroll-ml-4 snap-center rounded-xl shrink-0 first:ml-4 last:mr-4">
-                <div className="flex items-center justify-center px-8 py-4 sm:py-10 sm:px-12">
-                    <img className="object-contain w-20 h-8 max-w-full sm:h-10 sm:w-44" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/integration/2/spotify.svg" alt="" />
-                </div>
-            </div>
-
-            <div className="overflow-hidden bg-black border border-gray-800 scroll-ml-4 snap-center rounded-xl shrink-0 first:ml-4 last:mr-4">
-                <div className="flex items-center justify-center px-8 py-4 sm:py-10 sm:px-12">
-                    <img className="object-contain w-20 h-8 max-w-full sm:h-10 sm:w-44" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/integration/2/zoom.svg" alt="" />
-                </div>
-            </div>
-
-            <div className="overflow-hidden bg-black border border-gray-800 scroll-ml-4 snap-center rounded-xl shrink-0 first:ml-4 last:mr-4">
-                <div className="flex items-center justify-center px-8 py-4 sm:py-10 sm:px-12">
-                    <img className="object-contain w-20 h-8 max-w-full sm:h-10 sm:w-44" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/integration/2/slack.svg" alt="" />
-                </div>
-            </div>
-
-            <div className="overflow-hidden bg-black border border-gray-800 scroll-ml-4 snap-center rounded-xl shrink-0 first:ml-4 last:mr-4">
-                <div className="flex items-center justify-center px-8 py-4 sm:py-10 sm:px-12">
-                    <img className="object-contain w-20 h-8 max-w-full sm:h-10 sm:w-44" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/integration/2/hotjar.svg" alt="" />
-                </div>
-            </div>
-
-            <div className="overflow-hidden bg-black border border-gray-800 scroll-ml-4 snap-center rounded-xl shrink-0 first:ml-4 last:mr-4">
-                <div className="flex items-center justify-center px-8 py-4 sm:py-10 sm:px-12">
-                    <img className="object-contain w-20 h-8 max-w-full sm:h-10 sm:w-44" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/integration/2/hubspot.svg" alt="" />
-                </div>
-            </div>
-
-            <div className="overflow-hidden bg-black border border-gray-800 scroll-ml-4 snap-center rounded-xl shrink-0 first:ml-4 last:mr-4">
-                <div className="flex items-center justify-center px-8 py-4 sm:py-10 sm:px-12">
-                    <img className="object-contain w-20 h-8 max-w-full sm:h-10 sm:w-44" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/integration/2/shopify.svg" alt="" />
-                </div>
-            </div>
-
-            <div className="overflow-hidden bg-black border border-gray-800 scroll-ml-4 snap-center rounded-xl shrink-0 first:ml-4 last:mr-4">
-                <div className="flex items-center justify-center px-8 py-4 sm:py-10 sm:px-12">
-                    <img className="object-contain w-20 h-8 max-w-full sm:h-10 sm:w-44" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/integration/2/whatsapp.svg" alt="" />
-                </div>
-            </div>
-        </div>
-
-        <div className="flex justify-end w-full gap-4 overflow-x-auto pointer-events-none scroll-px-4 snap-mandatory snap-x">
-            <div className="overflow-hidden bg-black border border-gray-800 scroll-ml-4 snap-start rounded-xl shrink-0 first:ml-4 last:mr-4">
-                <div className="flex items-center justify-center px-8 py-4 sm:py-10 sm:px-12">
-                    <img className="object-contain w-20 h-8 max-w-full sm:h-10 sm:w-44" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/integration/2/zalando.svg" alt="" />
-                </div>
-            </div>
-
-            <div className="overflow-hidden bg-black border border-gray-800 scroll-ml-4 snap-start rounded-xl shrink-0 first:ml-4 last:mr-4">
-                <div className="flex items-center justify-center px-8 py-4 sm:py-10 sm:px-12">
-                    <img className="object-contain w-20 h-8 max-w-full sm:h-10 sm:w-44" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/integration/2/whatsapp.svg" alt="" />
-                </div>
-            </div>
-
-            <div className="overflow-hidden bg-black border border-gray-800 scroll-ml-4 snap-start rounded-xl shrink-0 first:ml-4 last:mr-4">
-                <div className="flex items-center justify-center px-8 py-4 sm:py-10 sm:px-12">
-                    <img className="object-contain w-20 h-8 max-w-full sm:h-10 sm:w-44" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/integration/2/shopify.svg" alt="" />
-                </div>
-            </div>
-
-            <div className="overflow-hidden bg-black border border-gray-800 scroll-ml-4 snap-start rounded-xl shrink-0 first:ml-4 last:mr-4">
-                <div className="flex items-center justify-center px-8 py-4 sm:py-10 sm:px-12">
-                    <img className="object-contain w-20 h-8 max-w-full sm:h-10 sm:w-44" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/integration/2/hubspot.svg" alt="" />
-                </div>
-            </div>
-
-            <div className="overflow-hidden bg-black border border-gray-800 scroll-ml-4 snap-start rounded-xl shrink-0 first:ml-4 last:mr-4">
-                <div className="flex items-center justify-center px-8 py-4 sm:py-10 sm:px-12">
-                    <img className="object-contain w-20 h-8 max-w-full sm:h-10 sm:w-44" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/integration/2/hotjar.svg" alt="" />
-                </div>
-            </div>
-
-            <div className="overflow-hidden bg-black border border-gray-800 scroll-ml-4 snap-start rounded-xl shrink-0 first:ml-4 last:mr-4">
-                <div className="flex items-center justify-center px-8 py-4 sm:py-10 sm:px-12">
-                    <img className="object-contain w-20 h-8 max-w-full sm:h-10 sm:w-44" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/integration/2/slack.svg" alt="" />
-                </div>
-            </div>
-
-            <div className="overflow-hidden bg-black border border-gray-800 scroll-ml-4 snap-start rounded-xl shrink-0 first:ml-4 last:mr-4">
-                <div className="flex items-center justify-center px-8 py-4 sm:py-10 sm:px-12">
-                    <img className="object-contain w-20 h-8 max-w-full sm:h-10 sm:w-44" src="https://landingfoliocom.imgix.net/store/collection/dusk/images/integration/2/zoom.svg" alt="" />
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+            </section>
+            <section className="py-12 bg-black sm:py-16 lg:py-20 xl:py-24">
+                <Slider {...settings2}>
+                    <div className='px-12'><img src={dart} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={digitalocean} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={docker} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={django} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={elastic} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={firebase} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={flask} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={flutter} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={kubernetes} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={mongo} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={mysql} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={nest} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={next} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={node} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={openai} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={php} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={postgresql} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={python} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={qwik} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={react} alt="Tech Logo 1" /></div>
+                    <div className='px-12'><img src={redis} alt="Tech Logo 1" /></div>
+                    
+                    {/* Add more items a3 needed */}
+                </Slider>
+            </section>
+        </>
 
     );
 }
