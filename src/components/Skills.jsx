@@ -132,4 +132,4 @@ const Skills = () => {
     );
 };
 
-export default LogoCarousel;
+export default Skills;
