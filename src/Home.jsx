@@ -8,7 +8,8 @@ import { Hero } from './components/Hero'
 import Nav from './components/Nav'
 import Solutions from './components/Solutions'
 import Title from './components/Title'
-import Partners from './components/Partners'
+// import Partners from './components/Partners'
+import Footer from './components/Footer'
 
 function Home() {
   // const [count, setCount] = useState(0)
@@ -24,7 +25,9 @@ function Home() {
       <Feature3 />
       <Feature4 />
       <Features /> {/* Why choose Us */}
-      <Partners />
+      {/* <Partners /> */}
+      <Footer/>
+
       
 
     </>

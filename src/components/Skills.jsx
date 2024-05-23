@@ -14,7 +14,7 @@ import elastic from '../assets/skill/elastic.png'
 import firebase from '../assets/skill/firebase.png'
 import flask from '../assets/skill/flask.png'
 import flutter from '../assets/skill/flutter.png'
-// gcp,git,go,grafana,html,jquery,kubernetes,mongo,mysql,nest,next,node,openai,php,postgresal,python,qwik,react,redis,redux,solidity,supabase,svelte,swagger,tailwind,threejs,vue
+// gcp,git,go,grafana,html,jquery,kubernetes,mongo,mysql,nest,next,node,openai,php,postgresql,python,qwik,react,redis,redux,solidity,supabase,svelte,swagger,tailwind,threejs,vue
 import gcp from '../assets/skill/gcp.png'
 import git from '../assets/skill/git.png'
 import go from '../assets/skill/go.png'
