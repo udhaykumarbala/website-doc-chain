@@ -114,7 +114,7 @@ function Nav() {
                               role='button'
                            >
                               {" "}
-                              Talk to Sales{" "}
+                              Connect to Us{" "}
                            </a>
                         </div>
                      </div>
