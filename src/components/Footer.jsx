@@ -19,7 +19,7 @@ const Footer = () => {
                                     <LocationCityIcon className="flex-shrink-0 w-6 h-6 text-white" />
                                     <span className="ml-5 text-xl font-normal text-white font-pj">Plot no. 21, Electrical, Electronics & Instruments industries,
 Perungudi, Seevaram Village, Sholinganallur Village,
-Sholinganallur Taluk, OMR Chennai 600096</span>
+Sholinganallur Taluk, Chennai 600096</span>
                                 </li>
 
                                 <li className="flex items-start">
