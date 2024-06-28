@@ -17,9 +17,7 @@ const Footer = () => {
                             <ul className="space-y-7">
                                 <li className="flex items-start">
                                     <LocationCityIcon className="flex-shrink-0 w-6 h-6 text-white" />
-                                    <span className="ml-5 text-xl font-normal text-white font-pj">Plot no. 21, Electrical, Electronics & Instruments industries,
-Perungudi, Seevaram Village, Sholinganallur Village,
-Sholinganallur Taluk, Chennai 600096</span>
+                                    <span className="ml-5 text-xl font-normal text-white font-pj">5th Cross Street, South Phase, Industrial Estate, Guindy, Chennai – 600 032. TamilNadu</span>
                                 </li>
 
                                 <li className="flex items-start">
