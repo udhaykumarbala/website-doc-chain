@@ -53,6 +53,14 @@ function Nav() {
                      {" "}
                      Services{" "}
                   </a>
+                  <a
+                     href='/text-to-speech'
+                     title=''
+                     className='text-base font-normal text-gray-400 transition-all duration-200 hover:text-white'
+                  >
+                     {" "}
+                     TTS & ASR{" "}
+                  </a>
 
                   {/* <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white"> Support </a> */}
                </nav>
@@ -101,6 +109,14 @@ function Nav() {
                         >
                            {" "}
                            Services{" "}
+                        </a>
+                        <a
+                           href='/text-to-speech'
+                           title=''
+                           className='text-base font-normal text-gray-400 transition-all duration-200 hover:text-white'
+                        >
+                           {" "}
+                           TTS & ASR{" "}
                         </a>
 
                         {/* <a href="#" title="" className="text-base font-normal text-gray-400 transition-all duration-200 hover:text-white">  </a> */}
