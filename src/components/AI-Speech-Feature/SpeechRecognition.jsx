@@ -21,7 +21,7 @@ export const SpeechRecognition = () => {
          id: 3,
          title: "Language Support",
          description:
-            ": Multilingual recognition tailored to various dialects and accents.",
+            "Multilingual recognition tailored to various dialects and accents.",
       },
       {
          id: 4,
