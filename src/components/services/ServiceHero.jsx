@@ -8,6 +8,17 @@ const ServiceHero = () => {
                   src='https://landingfoliocom.imgix.net/store/collection/dusk/images/logo-symbol.svg'
                   alt=''
                />
+
+               {/* <h2 className='mt-8 text-3xl font-normal text-white sm:mt-12  leading-10'>
+                  <span className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500 font-semibold lg:text-5xl xl:text-6xl'>
+                     Doc-Chain
+                  </span>{" "}
+                  is committed to delivering world-class technology solutions
+                  that drive business transformation and sustainable growth.
+                  Explore our expertise and discover how we can support your
+                  digital journey with innovation, security, and seamless
+                  integration.
+               </h2> */}
                <h2 className='mt-8 text-3xl font-normal text-white sm:mt-12 sm:text-4xl lg:text-5xl xl:text-6xl'>
                   <span className='text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-purple-500'>
                      Transform your vision.
