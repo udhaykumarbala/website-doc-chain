@@ -60,7 +60,7 @@ const Footer = () => {
                            Services{" "}
                         </a>
                      </li>
-                     <li>
+                     {/* <li>
                         <a
                            href='/text-to-speech'
                            title=''
@@ -69,7 +69,7 @@ const Footer = () => {
                            {" "}
                            TTS & ASR{" "}
                         </a>
-                     </li>
+                     </li> */}
 
                      {/* <li>
                     <a href="#" title="" className="text-lg font-medium text-white transition-all duration-200 font-pj hover:text-gray-300"> Works </a>
