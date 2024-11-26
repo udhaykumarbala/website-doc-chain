@@ -96,22 +96,22 @@ export const FEATURE_SERVICE_DATA = [
 
    {
       id: 8,
-      title: "Immersive Virtual Reality (VR) Experiences",
-      glowSubTitle: "Transform user interaction with immersive VR.",
-      subTitle: "Engaging 3D environments for various industries.",
-      description:
-         "Docchain designs immersive 3D virtual reality (VR) experiences tailored for industries such as training, education, and tourism. Utilizing industry-leading platforms like Unity and Unreal Engine, our VR solutions create engaging, interactive environments that elevate learning and experiential engagement. Each VR project is crafted to provide high-impact, immersive experiences that transform user interaction and understanding.",
-      imgSrc: virtualReality,
-      isImageFirst: true,
-   },
-   {
-      id: 9,
       title: "IoT Solutions for Smart Automation and Connectivity",
       glowSubTitle: "Harness the potential of connected technology.",
       subTitle: "Smart automation and real-time analytics.",
       description:
          "Our Internet of Things (IoT) services bring advanced connectivity and smart automation to life. Specializing in edge computing, real-time analytics, and device management, we use protocols like MQTT and CoAP to ensure secure, efficient data communication. Docchain’s IoT expertise enables businesses to drive intelligent automation and operational efficiency, harnessing the full potential of connected technology.",
       imgSrc: smartAutomation,
+      isImageFirst: true,
+   },
+   {
+      id: 9,
+      title: "Immersive Virtual Reality (VR) Experiences",
+      glowSubTitle: "Transform user interaction with immersive VR.",
+      subTitle: "Engaging 3D environments for various industries.",
+      description:
+         "Docchain designs immersive 3D virtual reality (VR) experiences tailored for industries such as training, education, and tourism. Utilizing industry-leading platforms like Unity and Unreal Engine, our VR solutions create engaging, interactive environments that elevate learning and experiential engagement. Each VR project is crafted to provide high-impact, immersive experiences that transform user interaction and understanding.",
+      imgSrc: virtualReality,
       isImageFirst: false,
    },
 ];

@@ -3,6 +3,7 @@ import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import logo from "../assets/logo.svg";
+import { Link } from "react-router-dom";
 
 function Nav() {
    const [expanded, setExpanded] = useState(false);
@@ -11,9 +12,9 @@ function Nav() {
          <div className='px-4 sm:px-6 lg:px-8'>
             <div className='flex items-center justify-between'>
                <div className='shrink-0'>
-                  <a href='#' title='' className='flex'>
+                  <Link to='/' title='' className='flex'>
                      <img className='w-auto h-9' src={logo} alt='' />
-                  </a>
+                  </Link>
                </div>
 
                <div className='flex md:hidden'>
